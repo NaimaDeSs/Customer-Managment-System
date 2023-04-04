@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to top left, #3c82ae, #174486);
+}
+
+h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+  text-align: center;
+  background-color: hsla(198, 100%, 36%, 0.5);
+}
+h2 {
+  padding: 3rem;
+  font-size: 3rem;
+  color: whitesmoke;
+  text-align: center;
+}
+.data-input {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background: linear-gradient(
+    342deg,
+    rgba(22, 21, 54, 1) 5%,
+    rgba(60, 157, 195, 0.5256477591036415) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+form {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  transition: all 0.8s ease-in-out;
+}
+ul {
+  padding: 50px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+}
+span {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 50px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.save {
+  font-size: 1.5rem;
+  width: 20%;
+  height: 35px;
+  margin-top: 3rem;
+}
+button:hover {
+  background-color: #0062cc;
+}
+label {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+input {
+  width: 25%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  text-align: center;
+}
+textarea {
+  width: 25%;
+  height: 50%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+button:hover {
+  background-color: #0062cc;
+}
+hr {
+  width: 75%;
+  border-radius: 20px;
+  border: 5px solid hsla(198, 100%, 36%, 1);
+  align-self: center;
+  transition: all 0.5s ease-in-out;
+}

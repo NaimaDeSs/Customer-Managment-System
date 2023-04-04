@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Managment System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Customer Managment System</h1>
+      <div class="data-input"></div>
+      <h2>Add the Customer</h2>
+      <hr>
+      <form id = "customer-form">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" required />
+        <label for="vat">VAT identification number: </label>
+        <input type="text" id="vat" required />
+        <label for="date">Creation Date: </label>
+        <input type="date" id="date" required />
+        <label for="address">Address: </label>
+        <textarea id="address" required></textarea>
+        <button class="save" type="submit">Save the data!</button>
+      </form>
+    </div>
+    <hr>
+    <h2>Customer List</h2>
+    <div class="customer-list">
+      <ul id="customers-list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
